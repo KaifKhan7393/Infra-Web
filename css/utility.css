@@ -1,0 +1,56 @@
+.btn{
+    padding: 10px 20px;
+    background-color:goldenrod;
+    cursor: pointer;
+    border: none;
+    font-size: 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+    transition:all 0.4s;
+}
+@media only screen and (max-width:500px){
+    .btn{
+        font-size: 17px;
+        margin-top: 15px;
+    }
+}
+@media only screen and (max-width:930px) and (max-height:420px){
+    .btn{
+        font-size: 17px;
+        margin-top: 15px;
+    }
+}
+.fa-arrow-right{
+    display:none;
+}
+.fa-arrow-left{
+    display:none;
+}
+.btn:hover{
+    opacity: .8;
+
+}
+.btn:hover .fa-arrow-right{
+    display: inline-block;
+}
+.btn:hover .fa-arrow-left{
+    display: inline-block;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h4{
+    font-family: 'Oswald', sans-serif;
+}
+.decoration{
+    text-decoration: none;
+    color: goldenrod;
+}
+.medium{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #ffffff;
+}
