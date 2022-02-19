@@ -28,7 +28,7 @@ header.sticky {
   position: fixed;
   top: 0;
 }
-.logo{
+.logo {
   padding: 0;
 }
 /* Nav menu */
@@ -76,7 +76,7 @@ header.sticky {
     position: absolute;
     top: 56.75px;
     left: -100%;
-    background: #ca965c;
+    background: #f4dfba;
     transition: all 0.6s ease-in-out;
   }
   .menu ul {
@@ -91,11 +91,7 @@ header.sticky {
 /* Styling Home Page */
 .home {
   width: 100%;
-<<<<<<< HEAD
   height: calc(100vh - 61px);
-=======
-  height: 88vh;
->>>>>>> 6647e87 (Modifying the file)
   background: rgba(0, 0, 0, 0.5) url("../img/9.jpg") no-repeat center
     center/cover;
   background-blend-mode: darken;
@@ -170,7 +166,7 @@ header.sticky {
   }
 }
 /* Making responsvie for landscape mode */
-@media only screen and (max-width: 58.125rem) and (max-height: 26.25) {
+@media only screen and (max-width: 58.125rem) and (max-height: 26.25rem) {
   .home {
     width: 100%;
     height: 100vh;
@@ -179,7 +175,7 @@ header.sticky {
     font-size: 1.875rem;
   }
   .home-content p {
-    font-size: 1.0625;
+    font-size: 1.0625rem;
     padding-top: 0.625rem;
     line-height: 1.375rem;
   }
@@ -193,7 +189,7 @@ header.sticky {
 @media only screen and (max-width: 31.25rem) {
   .home-content {
     color: white;
-    transform: translateY(20%, 15%);
+    transform: translate(20%, 15%);
   }
   .home-content h2 {
     font-size: 1.875rem;
@@ -601,7 +597,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  display: none;
+  /* display: none; */
 }
 .footer-social-media a {
   text-decoration: none;

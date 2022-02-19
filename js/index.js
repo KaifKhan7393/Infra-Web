@@ -2,8 +2,7 @@ const hamburger = document.querySelector("#ham"); //seleting hamburger menu
 const menu = document.querySelector("nav"); //selcting navigation menu
 const icon = document.querySelector(".fa-solid"); //selection hamburger icon
 //Adding event listener on hamburger menu
-hamburger.addEventListener("click", function () {
-
+hamburger.addEventListener("click", () => {
     menu.classList.toggle("active"); //adding new class in navigation menu when we click on hamburger menu
 
     //Displaying the cross icon after 6sec
@@ -12,7 +11,7 @@ hamburger.addEventListener("click", function () {
         icon.classList.toggle("fa-xmark");
     }, 600);
 
-})
+});
 
 //Selecting all the nav links
 const link = document.querySelectorAll(".link");
@@ -23,20 +22,20 @@ for (let i = 0; i < link.length; i++) {
         menu.classList.toggle("active");
         icon.classList.toggle("fa-bars");
         icon.classList.toggle("fa-xmark");
-    })
+    });
 }
 
 const header = document.querySelector("header"); //selection header part
 //Making Navbar Sticky
 window.addEventListener("scroll", () => {
     header.classList.toggle("sticky", window.scrollY);
-})
+});
 
 //Selecting home section
 const homebg = document.querySelector("#Home");
 
 //Storing multiple images in an array form
-const homeImg = ["../img/3D.jpg", "../img/12.jpg", "../img/6.jpg", "../img/17.jpg"];
+const homeImg = ["./img/3D.jpg", "./img/12.jpg", "./img/6.jpg", "./img/17.jpg"];
 
 let i = 0;
 setTimeout(function changeBgImage() {
